@@ -16,7 +16,11 @@
   "include": [
     "**/*.ts"
   ],
-  "references": [],
+  "references": [
+    {
+      "path": "../lib/tsconfig.lib.json"
+    }
+  ],
   "exclude": [
     "dist",
     "src/**/*.test.ts",
